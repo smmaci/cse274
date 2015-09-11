@@ -5,6 +5,12 @@
  * 
  * @author Ch. H.  Modified by H. W. A 
  */
+
+/*
+*Samuel Mallamaci
+*mallamsg
+*CSE274 Section C
+*/
 public class Counter
 {
     // PUT PRIVATE DATA FIELDS HERE
