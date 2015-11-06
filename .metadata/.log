@@ -1,0 +1,47 @@
+!SESSION 2015-09-11 14:15:12.104 -----------------------------------------------
+eclipse.buildId=4.4.0.I20140606-1215
+java.version=1.8.0_11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-09-11 14:15:13.483
+!MESSAGE Unable to acquire PluginConverter service during generation for: /opt/eclipse/features/org.epic.feature.main_0.7.0.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-09-11 14:15:13.545
+!MESSAGE Unable to acquire PluginConverter service during generation for: /opt/eclipse/features/org.epic.feature.main_0.7.0.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-09-11 14:15:13.596
+!MESSAGE Unable to acquire PluginConverter service during generation for: /opt/eclipse/features/org.epic.feature.main_0.7.0.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-09-11 14:15:13.625
+!MESSAGE Unable to acquire PluginConverter service during generation for: /opt/eclipse/features/org.epic.feature.main_0.7.0.jar.
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2015-09-11 14:15:15.355
+!MESSAGE An error occurred while configuring the installed items
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2015-09-11 14:15:15.355
+!MESSAGE session context was:(profile=epp.package.jee, phase=org.eclipse.equinox.internal.p2.engine.phases.Configure, operand=null --> [R]org.eclipse.platform.ide 4.4.0.I20140606-1215, action=org.eclipse.equinox.internal.p2.touchpoint.natives.actions.MkdirAction).
+!SUBENTRY 1 org.eclipse.equinox.p2.touchpoint.natives 4 0 2015-09-11 14:15:15.355
+!MESSAGE Could not create directory /opt/eclipse/dropins.
+
+!ENTRY org.eclipse.jface 2 0 2015-09-11 14:47:31.526
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-09-11 14:47:31.526
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.eof,EOF,
+		Send end of file,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5a65140d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.console,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1320fd4d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)

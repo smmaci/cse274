@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="hw2_mallamsg_part2.SList"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="hw2_mallamsg_part2.SListNode"/>
+<fullyQualifiedTypeName name="QueueOverFlowException"/>
+<fullyQualifiedTypeName name="AQueue"/>
+<fullyQualifiedTypeName name="SLNode"/>
+<fullyQualifiedTypeName name="EmptyQueueException"/>
+</qualifiedTypeNameHistroy>
